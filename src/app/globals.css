@@ -53,3 +53,32 @@
 html {
   scroll-behavior: smooth;
 }
+
+.bndryiq-brand {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.bndryiq-brand .iq-badge {
+  margin-left: 0.15em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  background: rgba(31, 41, 55, 0.8);
+  border: 1px solid rgba(55, 65, 81, 0.6);
+  padding: 0.05em 0.3em;
+  font-size: 0.65em;
+  font-weight: 800;
+  color: #f97316;
+  line-height: 1;
+}
+
+.bndryiq-brand .tm {
+  font-size: 0.5em;
+  opacity: 0.3;
+  margin-left: 0.1em;
+  align-self: flex-start;
+}

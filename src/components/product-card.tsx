@@ -1,5 +1,5 @@
 interface ProductCardProps {
-  name: string;
+  name: React.ReactNode;
   tagline: string;
   description: string;
   status: "live" | "coming-soon";

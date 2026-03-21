@@ -3,8 +3,27 @@ import ProductCard from "@/components/product-card";
 import Footer from "@/components/footer";
 
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Chonky Heads LLC",
+    url: "https://chonkyheads.com",
+    email: "ChonkyHeads@proton.me",
+    description:
+      "Helping people read, learn, and understand land. Building unChonk and BNDRYIQ — tools that make complex things simple.",
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "WI",
+      addressCountry: "US",
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
 
       <main>
@@ -44,7 +63,7 @@ export default function Home() {
               </div>
               <div className="animate-fade-up-delay-2 flex">
                 <ProductCard
-                  name="BNDRYIQ™"
+                  name={<span className="bndryiq-brand">BNDRY<span className="iq-badge">IQ</span><span className="tm">™</span></span>}
                   tagline="Property Intelligence"
                   description="Aerial video generation, interactive maps, land analysis, and a drone pilot marketplace. Understand any property from every angle."
                   status="coming-soon"

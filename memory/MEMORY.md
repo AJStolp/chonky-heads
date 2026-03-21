@@ -1,0 +1,2 @@
+- [user_profile.md](user_profile.md) — Owner of Chonky Heads LLC, WI-based, builds web/mobile apps
+- [project_products.md](project_products.md) — Two products: unChonk (live TTS) and BNDRYIQ (property intelligence, coming soon)

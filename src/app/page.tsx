@@ -36,7 +36,7 @@ export default function Home() {
               learn, and understand land.
             </h1>
             <p className="animate-fade-up-delay-1 mt-6 max-w-xl text-lg leading-relaxed text-white/60">
-              Turning text into speech. Turning aerial footage into property
+              Turning text into speech, and aerial footage into property
               intelligence. Building tools that make complex things simple.
             </p>
             <div className="animate-fade-up-delay-2 mt-8 h-1 w-24 rounded-full bg-gradient-to-r from-orange-500 to-amber-500" />
